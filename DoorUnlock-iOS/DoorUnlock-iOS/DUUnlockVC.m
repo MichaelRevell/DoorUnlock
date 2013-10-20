@@ -12,12 +12,12 @@
 @interface DUUnlockVC ()
 
 @property (strong, nonatomic) NSURLConnection *connection;
+@property (strong, nonatomic) NSString *userName;
 
 
 
 @end
 NSMutableData *_responseData;
-NSString * userName;
 
 @implementation DUUnlockVC
 
@@ -28,7 +28,7 @@ NSString * userName;
         // Custom initialization
     }
     return self;
-    self.welcomeLabel.text = [@"Welcome Home, %n", self.userName];
+    self.welcomeLabel.text = [NSString stringWithFormat:@"Welcome Home, %@", self.userName];
 }
 
 - (void)viewDidLoad

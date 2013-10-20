@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DUUnlockVC.h"
 
 @interface ViewController ()
 
@@ -22,16 +23,19 @@
     }
     return self;
 }
-- (IBAction)Email:(id)sender {
-    
-}
-- (IBAction)Password:(id)sender {
-}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+- (IBAction)Email:(id)sender {
+}
+- (IBAction)Password:(id)sender {
+}
+- (IBAction)logIn:(id)sender {
+    DUUnlockVC *logIn = [[DUUnlockVC alloc] initWithNibName:@"DUUnlockVC" bundle:nil];
+    [self presentViewController:logIn animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
