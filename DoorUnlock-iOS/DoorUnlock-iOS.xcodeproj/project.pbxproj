@@ -21,6 +21,10 @@
 		41F0B2B1181328D80015E136 /* DoorUnlock_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F0B2B0181328D80015E136 /* DoorUnlock_iOSTests.m */; };
 		41F0B2BD181329890015E136 /* DUUnlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F0B2BB181329890015E136 /* DUUnlockVC.m */; };
 		41F0B2BE181329890015E136 /* DUUnlockVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41F0B2BC181329890015E136 /* DUUnlockVC.xib */; };
+		E81C021C18147396007A2423 /* imgres-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E81C021B18147396007A2423 /* imgres-1.png */; };
+		E81C021E18147691007A2423 /* imgres-1 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = E81C021D18147691007A2423 /* imgres-1 copy.png */; };
+		E81C0222181478CE007A2423 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81C0220181478CE007A2423 /* ViewController.m */; };
+		E81C0223181478CE007A2423 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E81C0221181478CE007A2423 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		41F0B2BA181329890015E136 /* DUUnlockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DUUnlockVC.h; path = "DoorUnlock-iOS/DUUnlockVC.h"; sourceTree = "<group>"; };
 		41F0B2BB181329890015E136 /* DUUnlockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DUUnlockVC.m; path = "DoorUnlock-iOS/DUUnlockVC.m"; sourceTree = "<group>"; };
 		41F0B2BC181329890015E136 /* DUUnlockVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DUUnlockVC.xib; path = "DoorUnlock-iOS/DUUnlockVC.xib"; sourceTree = "<group>"; };
+		E81C021B18147396007A2423 /* imgres-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgres-1.png"; sourceTree = "<group>"; };
+		E81C021D18147691007A2423 /* imgres-1 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgres-1 copy.png"; sourceTree = "<group>"; };
+		E81C021F181478CE007A2423 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E81C0220181478CE007A2423 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E81C0221181478CE007A2423 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,9 @@
 				41F0B2BA181329890015E136 /* DUUnlockVC.h */,
 				41F0B2BB181329890015E136 /* DUUnlockVC.m */,
 				41F0B2BC181329890015E136 /* DUUnlockVC.xib */,
+				E81C021F181478CE007A2423 /* ViewController.h */,
+				E81C0220181478CE007A2423 /* ViewController.m */,
+				E81C0221181478CE007A2423 /* ViewController.xib */,
 				41F0B291181328D80015E136 /* DoorUnlock-iOS */,
 				41F0B2AA181328D80015E136 /* DoorUnlock-iOSTests */,
 				41F0B28A181328D80015E136 /* Frameworks */,
@@ -146,6 +158,8 @@
 		41F0B2AB181328D80015E136 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E81C021D18147691007A2423 /* imgres-1 copy.png */,
+				E81C021B18147396007A2423 /* imgres-1.png */,
 				41F0B2AC181328D80015E136 /* DoorUnlock-iOSTests-Info.plist */,
 				41F0B2AD181328D80015E136 /* InfoPlist.strings */,
 			);
@@ -237,6 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81C021C18147396007A2423 /* imgres-1.png in Resources */,
+				E81C021E18147691007A2423 /* imgres-1 copy.png in Resources */,
+				E81C0223181478CE007A2423 /* ViewController.xib in Resources */,
 				41F0B2AF181328D80015E136 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81C0222181478CE007A2423 /* ViewController.m in Sources */,
 				41F0B2B1181328D80015E136 /* DoorUnlock_iOSTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

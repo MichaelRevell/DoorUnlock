@@ -7,6 +7,7 @@
 //
 
 #import "DUUnlockVC.h"
+#import "ViewController.h"
 
 @interface DUUnlockVC ()
 
@@ -16,6 +17,7 @@
 
 @end
 NSMutableData *_responseData;
+NSString * userName;
 
 @implementation DUUnlockVC
 
@@ -26,6 +28,7 @@ NSMutableData *_responseData;
         // Custom initialization
     }
     return self;
+    self.welcomeLabel.text = [@"Welcome Home, %n", self.userName];
 }
 
 - (void)viewDidLoad

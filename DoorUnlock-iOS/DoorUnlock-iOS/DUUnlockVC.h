@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface DUUnlockVC : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *welcomeLabel;
+
 
 @end
